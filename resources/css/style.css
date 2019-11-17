@@ -247,6 +247,7 @@ nav a{
 	width: 100%;
 	/*background-color: red;*/
 	padding-bottom: 32px;
+	border-bottom: 1px solid #ddd;
 }
 
 #thesis-exhibit h2{
@@ -306,8 +307,31 @@ nav a{
 	background-color: #ddd;
 }
 
+/*Footer*/
 
+footer {
+	width: 100%;
+	height: 69px;
+	display: flex;
+	justify-content: space-between;
+	padding-left: 24px;
+	padding-top: 16px;
+	
+}
 
+#legal ul{
+	display: inline-flex;
+	padding-right: 24px;
+}
+
+#legal li {
+	padding-left: 16px;
+}
+
+#legal a{
+	text-decoration: none;
+	color: grey;
+}
 
 
 
