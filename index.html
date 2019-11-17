@@ -79,7 +79,7 @@
 						<img src="resources/images/information-orientation.jpg" alt="People walking on path">
 					</div>
 					<div id="other-text">
-						<h2>Orientation date</h2>
+						<h3>Orientation date</h3>
 						<p>Tues 10/11 & Wed 10/12: 8am-3pm</p>
 						<a href="#">Read more</a>
 					</div>
@@ -89,7 +89,7 @@
 						<img src="resources/images/information-campus.jpg" alt="Classroom picture">
 					</div>
 					<div id="other-text">
-						<h2>Our campus</h2>
+						<h3>Our campus</h3>
 						<p>Find which campus is close by you</p>
 						<a href="#">Read more</a>
 					</div>
@@ -99,7 +99,7 @@
 						<img src="resources/images/information-guest-lecture.jpg" alt="Picture of Oliver Sack">
 					</div>
 					<div id="other-text">
-						<h2>Our guest lecture</h2>
+						<h3>Our guest lecture</h3>
 						<p>John a keynote with Oliver Sack about music in medical treatment</p>
 						<a href="#">Read more</a>
 					</div>
@@ -108,67 +108,91 @@
 			</div>		
 		</section>
 
-		<section id="courses">
+		<section id="startLearning">
 			<h2>Start Learning</h2>
-			<div class="course">
-				<div id="course">
+			<div class="courses" id="courses">
+				<div class="course">
 					<img src="resources/images/course-software.jpg" alt="picture of computer">
-					<h3>Software engineering</h3>
-					<p>courses</p>
-					<p>Web Development, Mobile Developemnt, iOT, APIs</p>
+					<div class="text">
+						<h3>Software engineering</h3>
+						<span>courses</span>
+						<p>Web Development, Mobile Developemnt, iOT, APIs</p>
+					</div>
 				</div>
-				<div id="course">
+				<div class="course">
 					<img src="resources/images/course-computer-art.jpg" alt="picture of phone">
-					<h3>Computer art</h3>
-					<p>courses</p>
-					<p>Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
+					<div class="text">
+						<h3>Computer art</h3>
+						<span>courses</span>
+						<p>Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>		
+					</div>
 				</div>
-				<div id="course">
+				<div class="course">
 					<img src="resources/images/course-design.jpg" alt="picture of man holding camera">
-					<h3>Design</h3>
-					<p>courses</p>
-					<p>User Experience Design, User Research, Visual Design</p>
+					<div class="text">
+						<h3>Design</h3>
+						<span>courses</span>
+						<p>User Experience Design, User Research, Visual Design</p>	
+					</div>
 				</div>
-				<div id="course">
+				<div class="course">
 					<img src="resources/images/course-data.jpg" alt="picture of laptop">
-					<h3>Data</h3>
-					<p>courses</p>
-					<p>Data Science, Big Data, SQL, Data Visualization</p>
+					<div class="text">
+						<h3>Data</h3>
+						<span>courses</span>
+						<p>Data Science, Big Data, SQL, Data Visualization</p>			
+					</div>
 				</div>
-				<div id="course">
+				<div class="course">
 					<img src="resources/images/course-business.jpg" alt="picture of chase">
-					<h3>Business</h3>
-					<p>courses</p>
-					<p>Product Development, Business Development, Startup</p>
+					<div class="text">
+						<h3>Business</h3>
+						<span>courses</span>
+						<p>Product Development, Business Development, Startup</p>	
+					</div>
 				</div>
-				<div id="course">
+				<div class="course">
 					<img src="resources/images/course-marketing.jpg" alt="picture of phone">
-					<h3>Marketing</h3>
-					<p>courses</p>
-					<p>Analytics, Content Marketing, Mobile Marketing</p>
+					<div class="text">
+						<h3>Marketing</h3>
+						<span>courses</span>
+						<p>Analytics, Content Marketing, Mobile Marketing</p>		
+					</div>
 				</div>
 			</div>
 		</section>
 
 		<section id="thesis-exhibit">
-			<div>
-				<video muted>
-					<source src="resources/videos/thesis.mp4" type="mp4">
-				</video>
-				<h3>Reimagine urban</h3>
-				<p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus porro quo earum voluptatem est. Cum, veniam necessitatibus debitis dolorem laboriosam repellendus, ipsam eaque deleniti, quaerat harum deserunt. Quas ipsa, doloremque!"</p>
-			</div>
-			<div>
-				<div>
-					<img src="resources/images/thesis-fisma.jpg" alt="prototype">
-					<h3>Fisma: Design and Prototype</h3>
-					<p>Designer showcase of new prototype product</p>
+			<h2>Thesis Exhibit</h2>
+			<div id="thesis-content">
+				<div class="thesis-exhibit" id="video">
+					<video controls>
+						<source src="resources/videos/thesis.mp4" type="video/mp4">
+					</video>
+					<h3>Reimagine urban</h3>
+					<p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus porro quo earum voluptatem est. Cum, veniam necessitatibus debitis dolorem laboriosam repellendus, ipsam eaque deleniti, quaerat harum deserunt. Quas ipsa, doloremque!"</p>
 				</div>
-				<div>
-					<img src="resources/images/thesis-now-and-then.jpg" alt="">
-					<h3>Now and then</h3>
-					<p>Research study about New York</p>
+				<div class="thesis-exhibit" id="articles">
+					<div class="articles" id="fisma">
+						<div class="art-image" >
+							<img src="resources/images/thesis-fisma.jpg" alt="prototype">
+						</div>
+						<div class="art-text">
+							<h3>Fisma: Design and Prototype</h3>
+							<p>Designer showcase of new prototype product</p>		
+						</div>
+					</div>
+					<div class="articles">
+						<div class="art-image" >
+							<img src="resources/images/thesis-now-and-then.jpg" alt="">
+						</div>
+						<div class="art-text">
+							<h3>Now and then</h3>
+							<p>Research study about New York</p>
+						</div>
+					</div>
 				</div>
+				
 			</div>
 		</section>	
 	</main>
